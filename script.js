@@ -5,12 +5,7 @@ const Script = require('smooch-bot').Script;
 
 const scriptRules = require('./script.json');
 
-bot.onText(/^\/say_hello (.+)$/, function (msg, match) {
-  var name = match[1];
-  bot.sendMessage(msg.chat.id, 'Hello ' + name + '!').then(function () {
-    // reply sent!
-  });
-});
+
 
 module.exports = new Script({
     processing: {
