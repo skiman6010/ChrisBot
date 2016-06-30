@@ -1,6 +1,7 @@
 {
-    "/START": "Hey there! Would you like to learn about Chris Thurber? %[TELL ME ABOUT HIM](postback:tell_me_about_him)",
-    "TELL ME ABOUT HIM": "Hi there!\nI’m the personal bot of Chris Thurber, a Junior Software Engineer.\n! Want to know more about Chris Thurber? %[Yes, learn about Chris](postback:learn_about_chris)",
+    "/START": "Hey there! Would you like to learn about Chris Thurber? %[Tell me about him](postback:tell_me_about_him)",
+    "TELL ME ABOUT HIM": "Hi there!\nI’m the personal bot of Chris Thurber, a Junior Software Engineer.\n Want to know more about Chris Thurber? %[Yes, learn about Chris](postback:learn_about_chris)",
+    "YES, LEARN ABOUT CHRIS": "He is currently a freelancer working on a couple cool projects, including me :). \n He is currently a sophomore at Indiana University and is pursuing a Bachelors in Computer Science. \n Do you want to see his online resume? %[Yes, see his resume](http://christopherthurber.tk)",
     "HELLO": "Hey, Do you need something? Do you want to tell Chris that you're talking to his bot? %[Tell him](postback:twitter)",
     "TELL HIM": "Let's tweet @ Chris so he knows you're interested in getting in contact with him. Here's a tweet that's ready to go: %[Tweet Chris](http://bit.ly/estherbot-tweet)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
