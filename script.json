@@ -1,7 +1,8 @@
 {
+    "/START": "Hey there! Would you like to learn about Chris Thurber? If you do, reply 'Tell me about him'",
     "BOT": "Hi there!\nI’m the personal bot of Chris Thurber, a Junior Software Engineer.\n! Want to know more about Chris Thurber? %[I'm here for the bot](postback:here_for_the_bot) %[Yes, learn about Chris](postback:learn_about_esther)",
     "HELLO": "Hey, Do you need something? Do you want to tell Chris that you're talking to his bot? %[Tell him](postback:twitter)",
-    "TELL HER": "Let's tweet @ Chris so he knows you're interested in getting in contact with him. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
+    "TELL HIM": "Let's tweet @ Chris so he knows you're interested in getting in contact with him. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, EstherBot is back."
