@@ -56,7 +56,7 @@ function createWebhook(smoochCore, target) {
                         console.error('Error creating Smooch webhook:', err);
                         console.error(err.stack);
                     });
-            }            
+            }
         )
         .catch((err) => {
             console.error('Error creating Smooch webhook:', err);
@@ -93,7 +93,7 @@ app.post('/webhook', function(req, res, next) {
             store,
             userId
         })
-    });    
+    });
 
     if(!isPostback) {
         const messages = req.body.messages.reduce((prev, current) => {
@@ -126,5 +126,5 @@ var server = app.listen(process.env.PORT || 8000, function() {
     var host = server.address().address;
     var port = server.address().port;
 
-    console.log('Smooch Bot listening at http://%s:%s', host, port);
+    console.log('ChrisBot listening at http://%s:%s', host, port);
 });
