@@ -6,5 +6,8 @@
     "TELL HIM": "Let's tweet @ Chris so he knows you're interested in getting in contact with him. Here's a tweet that's ready to go: %[Tweet Chris](http://bit.ly/estherbot-tweet)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
-    "DISCONNECT": "Roger that, ChrisBot is back."
+    "DISCONNECT": "Roger that, ChrisBot is back.",
+    "HELP OUT": "Would you like to hear about Chris? %[Yes, tell me about him](postback:tell_me_about_him)",
+    "ABOUT": "Hey there! I'm Chris Thurber's personal bot. I can tell you about him if you like. %[Yes, tell me about him](postback:tell_me_about_him)",
+    "HELLO": "Hey there! I'm Chris Thurber's personal bot. I can tell you about him if you like. %[Yes, tell me about him](postback:tell_me_about_him)"
 }
